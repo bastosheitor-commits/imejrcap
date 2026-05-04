@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <style></style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaLivre</title>
+</head>
+<body style="background-color: rgb(184, 160, 130);">
+
+
+
+
+<h3>Cadastro</h3>
+<form action="enviar-dados" method="POST">
+    <label for="nome">Nome:</label>
+    <input type="text"id=nome name="nome" placeholder="Digite seu nome" required>
+<br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+<br><br><hr>
+
+
+    <h3>Fale o que você consome:</h3>
+        <input type="checkbox" id="escolha1" name="escolhas" value="filmes">
+        <label   for="escolha1">Filmes</label><br><br>
+        <input type="checkbox" id="escolha2" name="escolhas" value="séries">
+        <label   for="escolha1">Séries</label><br><br>
+        <input type="checkbox" id="escolha3" name="escolhas" value="livros">
+        <label   for="escolha1">Livros</label><br><br>
+<hr>
+    <h3>Indique o que você mais gosta</h3>
+        <input type="radio" id="tbate" name="maisgosta" value="tbate">
+        <label for="tbate">The Beginning After The End</label><br><br>
+        <input type="radio" id="solo" name="maisgosta" value="solo">
+        <label for="solo">Solo Leveling</label><br><br>
+        <input type="radio" id="eng" name="maisgosta" value="eng">
+        <label for="eng">The Greatest Estate Developer</label><br><br>
+
+
+</form>
+<hr>
+<button>Enviar</button>
+<hr><br>
+     <a href="home.html">Home</a><br>
+     <a href="Galeria.html">Galeria</a>
+</body>
+</html>
